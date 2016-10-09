@@ -13,6 +13,7 @@ main div {
 */
   /*one line: top and botton=0 ... left and right=auto */
   margin: 0 auto;
+  padding: 30px 0px;
 }
 
 main h1,h2 {
@@ -20,6 +21,7 @@ main h1,h2 {
 }
 
 main h1 {
+  font-size: 60px;
   text-align: center;
   background-color: #851944;
   color: #FFF;
@@ -28,12 +30,17 @@ main h1 {
   border-bottom: 10px solid #000;
 }
 
+main h2 {
+  font-size: 30px;
+}
+
 main a {
   color: #851944;
 }
 
 p {
   text-align: justify;
+  margin:20px 0px;
 }
 
 blockquote{
@@ -41,16 +48,20 @@ blockquote{
   border: 10px solid #C2CCCA;
   width: 250px;
   box-sizing: border-box;
-  margin:0;
-
+  margin:20px 0px 40px;
+  margin:20px 40px;
 }
 
 aside {
   background-color: #3C1D3D;
-  color :#F2FFFC;
+  color: #F2FFFC;
   text-align: center;
 }
 
+aside h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
 
 aside a {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -64,4 +75,12 @@ footer{
 
 blockquote, aside, footer {
   padding: 20px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
 }
